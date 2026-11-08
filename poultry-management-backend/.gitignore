@@ -1,0 +1,25 @@
+# Maven build output
+target/
+
+# Local SQLite database and logs (never commit real or demo data files)
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.log
+logs/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+*.swp
+.DS_Store
+
+# Secrets / local overrides
+.env
+application-local.properties

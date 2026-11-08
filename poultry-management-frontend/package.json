@@ -1,0 +1,25 @@
+{
+  "name": "poultry-management-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Educational prototype UI for the Poultry Management System (Kenchic case study)",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.2.0",
+    "vite": "^7.3.0"
+  }
+}
